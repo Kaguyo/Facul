@@ -14,12 +14,12 @@ int main(){
     printf("-1");
   }else{
     for(int e=0;e<x;e++){ // e = 0 ; caso e menor do que x ; e + 1 
-      for(int f=0;f<y;f++){
-        ma[e][f] = cont;
+      for(int f=0;f<y;f++){ // o loop interno ocorre a quantidade de vezes que for determinado valor de y- 
+        ma[e][f] = cont;    // -e para cada vez que terminar, o externo ocorre denovo com a mesma regra.
         cont++; 
         printf("posicao %d",ma[e][f]);
       }
     }
-  } // 3
+  } 
 return 0;
 }
