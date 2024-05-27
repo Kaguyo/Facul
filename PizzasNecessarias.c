@@ -12,7 +12,7 @@ A saída constará do número total de pizzas que Joãozinho pedirá.
 
 int main() {
   int amigos, i; // Number of friends
-  int pizzaSlices = 8; // Slices per pizza
+  int pizzaSlices = 8; // Slices per pizza ;;
 
   printf("Digite o número de amigos: ");
   scanf("%d", &amigos);
