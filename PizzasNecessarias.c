@@ -6,7 +6,6 @@ Entrada
 O usuário entrará com o número XX de amigos.
 Saída
 
-
 A saída constará do número total de pizzas que Joãozinho pedirá.
 */
 #include <stdio.h>
@@ -30,7 +29,7 @@ int main() {
        pizzasNeeded+=(i/pizzaSlices);;
      }
     }
-  }
+  }//22
 
   // Print total pizzas required
   printf("Joãozinho precisa de %d pizzas.\n", pizzasNeeded);
