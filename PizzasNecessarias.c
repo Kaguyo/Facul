@@ -29,7 +29,7 @@ int main() {
        pizzasNeeded+=(i/pizzaSlices);;
      }
     }
-  }//22
+  }
 
   // Print total pizzas required
   printf("Joãozinho precisa de %d pizzas.\n", pizzasNeeded);
