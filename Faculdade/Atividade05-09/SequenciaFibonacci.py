@@ -21,5 +21,5 @@ elif n > 2:
 '''
 #   dessa maneira, o que antes era o array fibonaccis agora é uma variavel string, e seus valores é igual a todos valores de array fibonaccis em formato string,
 #   separado por espaços em branco agora
-fibonaccis = ' '.join(map(str, fibonaccis))
-print(fibonaccis)
+fibonaccis_str = ' '.join(map(str, fibonaccis))
+print(fibonaccis_str)
